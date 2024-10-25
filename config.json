@@ -130,7 +130,6 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "workbench.iconTheme": "vscode-icons",
   "editor.minimap.enabled": false,
   "git.autofetch": true,
   "files.trimTrailingWhitespace": true,
@@ -138,9 +137,35 @@
   "editor.stickyScroll.enabled": false,
   "codeium.enableCodeLens": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
-  "files.eol": "\n",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.colorTheme": "Vim Dark Soft"
+  "workbench.colorTheme": "Vim Dark Soft",
+  "terminal.integrated.profiles.osx": {
+    "GitHub": {
+      "path": "zsh",
+      "args": [
+        "-c",
+        "echo GitHub & exec zsh"
+      ],
+      "icon": "github"
+    },
+    "Servidor": {
+      "path": "zsh",
+      "args": [
+        "-c",
+        "echo Servidor & exec zsh"
+      ],
+      "icon": "server"
+    },
+    "Tests": {
+      "path": "zsh",
+      "args": [
+        "-c",
+        "echo Tests & exec zsh"
+      ],
+      "icon": "cloud"
+    }
+  },
+  "cmake.showOptionsMovedNotification": false,
+  "workbench.iconTheme": "vscode-icons"
 }
