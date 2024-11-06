@@ -1,6 +1,6 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -14,9 +14,10 @@
     ".dev.vars": "dotenv",
     "*.vue": "vue"
   },
+  "workbench.tree.indent": 7,
   "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
   "editor.parameterHints.enabled": true,
-  "editor.renderLineHighlight": "gutter",
+  "editor.renderLineHighlight": "none",
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
   "terminal.integrated.showExitAlert": false,
@@ -30,8 +31,6 @@
   "editor.fontLigatures": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-html": "html",
-    "vue": "html"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
@@ -58,7 +57,6 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
-  "editor.tabSize": 2,
   "files.exclude": {
     "**/CVS": true,
     "**/.DS_Store": true,
@@ -127,10 +125,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "editor.minimap.enabled": false,
   "git.autofetch": true,
   "files.trimTrailingWhitespace": true,
   "editor.formatOnSave": true,
@@ -139,33 +133,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "workbench.colorTheme": "Vim Dark Soft",
-  "terminal.integrated.profiles.osx": {
-    "GitHub": {
-      "path": "zsh",
-      "args": [
-        "-c",
-        "echo GitHub & exec zsh"
-      ],
-      "icon": "github"
-    },
-    "Servidor": {
-      "path": "zsh",
-      "args": [
-        "-c",
-        "echo Servidor & exec zsh"
-      ],
-      "icon": "server"
-    },
-    "Tests": {
-      "path": "zsh",
-      "args": [
-        "-c",
-        "echo Tests & exec zsh"
-      ],
-      "icon": "cloud"
-    }
-  },
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "cmake.showOptionsMovedNotification": false,
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "console-ninja.featureSet": "Community",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
