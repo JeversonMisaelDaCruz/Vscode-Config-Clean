@@ -1,7 +1,7 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 1.8,
+  "window.zoomLevel": -0.5,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": false,
@@ -30,7 +30,7 @@
   "workbench.editor.labelFormat": "short",
   "editor.fontLigatures": true,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
+    "javascript": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
@@ -41,7 +41,7 @@
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "JetBrainsMono mono",
   "eslint.validate": [
     "javascript",
@@ -95,17 +95,13 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 2,
   "explorer.fileNesting.enabled": true,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": []
-  },
   "workbench.layoutControl.enabled": false,
   "files.autoSave": "afterDelay",
   "codeium.enableConfig": {
     "*": true,
     "prisma": true
   },
-  "terminal.integrated.env.windows": {},
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.settings.applyToAllProfiles": [
     "terminal.integrated.defaultProfile.windows"
   ],
@@ -133,11 +129,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "workbench.colorTheme": "Ayu Mirage Bordered",
-  "cmake.showOptionsMovedNotification": false,
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
   "console-ninja.featureSet": "Community",
   "editor.minimap.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "Christmas Night"
 }
