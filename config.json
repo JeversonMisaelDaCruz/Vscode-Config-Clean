@@ -101,7 +101,7 @@
     "*": true,
     "prisma": true
   },
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.settings.applyToAllProfiles": [
     "terminal.integrated.defaultProfile.windows"
   ],
@@ -135,5 +135,6 @@
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.statusBar.visible": false,
-  "workbench.colorTheme": "Christmas Night"
+  "tabby.endpoint": "http://localhost:8080",
+  "workbench.colorTheme": "Vim Deep Dark"
 }
