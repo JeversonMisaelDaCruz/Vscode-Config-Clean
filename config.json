@@ -2,6 +2,7 @@
   "window.zoomLevel": -0.5,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.5,
+  "editor.fontWeight": "400",
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": false,
@@ -14,11 +15,17 @@
     ".dev.vars": "dotenv",
     "*.vue": "vue"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
   "workbench.tree.indent": 7,
   "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
   "editor.parameterHints.enabled": true,
   "editor.renderLineHighlight": "none",
-  "editor.suggestSelection": "first",
+  "editor.suggest.selection": "first",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showWords": false,
   "explorer.confirmDelete": false,
   "terminal.integrated.showExitAlert": false,
   "[prisma]": {
@@ -41,8 +48,8 @@
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "JetBrainsMono mono",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "Monospace",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -55,7 +62,6 @@
     "java"
   ],
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
   "files.exclude": {
     "**/CVS": true,
@@ -91,9 +97,9 @@
     ".env.local": ".env*",
     ".env": ".env*"
   },
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorWidth": 2,
+  "editor.cursorWidth": 3,
   "explorer.fileNesting.enabled": true,
   "workbench.layoutControl.enabled": false,
   "files.autoSave": "afterDelay",
@@ -123,18 +129,17 @@
   },
   "git.autofetch": true,
   "files.trimTrailingWhitespace": true,
-  "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
   "codeium.enableCodeLens": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
   "editor.tabSize": 2,
   "console-ninja.featureSet": "Community",
   "editor.minimap.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.statusBar.visible": false,
-  "tabby.endpoint": "http://localhost:8080",
-  "workbench.colorTheme": "Vim Deep Dark"
+  "workbench.colorTheme": "Darcula Theme from IntelliJ",
+  "editor.cursorSurroundingLines": 12,
+  "editor.fontFamily": "Fira Code",
 }
