@@ -17,12 +17,12 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
   "workbench.tree.indent": 7,
   "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
   "editor.parameterHints.enabled": true,
   "editor.renderLineHighlight": "none",
-  "editor.suggest.selection": "first",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggest.showWords": false,
@@ -134,12 +134,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+  "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
   "console-ninja.featureSet": "Community",
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
-  "workbench.colorTheme": "Darcula Theme from IntelliJ",
   "editor.cursorSurroundingLines": 12,
   "editor.fontFamily": "Fira Code",
+  "workbench.colorTheme": "Min Dark"
 }
