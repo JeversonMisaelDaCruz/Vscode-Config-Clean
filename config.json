@@ -49,7 +49,7 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontFamily": "Monospace",
+  "terminal.integrated.fontFamily": "fira code",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -107,7 +107,7 @@
     "*": true,
     "prisma": true
   },
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.settings.applyToAllProfiles": [
     "terminal.integrated.defaultProfile.windows"
   ],
@@ -134,12 +134,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "symbols",
   "editor.tabSize": 2,
   "console-ninja.featureSet": "Community",
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
   "editor.cursorSurroundingLines": 12,
   "editor.fontFamily": "Fira Code",
-  "workbench.colorTheme": "Min Dark"
+  "workbench.colorTheme": "Monokai Pro Light (Filter Sun)"
 }
